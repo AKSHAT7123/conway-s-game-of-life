@@ -5,10 +5,7 @@ This project is an implementation of Conway's Game of Life in Python. The Game o
 ## Files
 
 - `main.py`: Main implementation of the Game of Life.
-- `diffrent_ways_to_import_library.py`: Examples of different ways to import libraries in Python.
-- `module2_or_library.py`: Examples of using various Python libraries and modules.
-- `practice1.py`: Practice problems and examples.
-
+-`README.md`:explains project purpose, setup, usage, dependencies, and contribution guidelines.
 ## How to Run
 
 1. Ensure you have Python installed on your system.
