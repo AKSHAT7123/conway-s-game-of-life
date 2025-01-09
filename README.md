@@ -4,7 +4,7 @@ This project is an implementation of Conway's Game of Life in Python. The Game o
 
 ## Files
 
-- `first.py`: Main implementation of the Game of Life.
+- `main.py`: Main implementation of the Game of Life.
 - `diffrent_ways_to_import_library.py`: Examples of different ways to import libraries in Python.
 - `module2_or_library.py`: Examples of using various Python libraries and modules.
 - `practice1.py`: Practice problems and examples.
@@ -16,14 +16,14 @@ This project is an implementation of Conway's Game of Life in Python. The Game o
     ```sh
     pip install numpy
     ```
-3. Run the `first.py` script:
+3. Run the `main.py` script:
     ```sh
     python first.py
     ```
 
 ## How It Works
 
-The [first.py](http://_vscodecontentref_/0) script initializes a random grid of cells, where each cell can be either alive (1) or dead (0). The grid evolves over time according to the following rules:
+The [main.py](http://_vscodecontentref_/0) script initializes a random grid of cells, where each cell can be either alive (1) or dead (0). The grid evolves over time according to the following rules:
 
 1. Any live cell with fewer than two live neighbors dies, as if by underpopulation.
 2. Any live cell with two or three live neighbors lives on to the next generation.
@@ -39,3 +39,13 @@ The script continuously updates the grid and prints it to the console, creating 
 - [main()](http://_vscodecontentref_/3): Initializes the grid and runs the main loop to update and print the grid.
 
 ## Example Output
+   ■■                            ■
+                   ■ ■     ■    ■■■
+      ■■■     ■■■ ■  ■ ■■■ ■■   ■■
+     ■■■    ■■     ■   ■■■
+      ■             ■■■ ■
+            ■  ■■             ■■
+             ■■         ■■   ■  ■
+■■                       ■■
+ ■                           ■ ■      ■■
+■                           ■■■      ■■■
